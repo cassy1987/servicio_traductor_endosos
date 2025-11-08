@@ -1,0 +1,45 @@
+{
+  "templates": [
+    {
+      "producto": "Rumbo",
+      "tipoEndoso": "CambioFrecuencia",
+      "eventDescription": "SolicitarEndoso",
+      "dynamicData": [
+        {
+          "etiqueta": "ProductosVida",
+          "default": "Rumbo"
+        },
+        {
+          "etiqueta": "NombreUsuario",
+          "default": "interface.servicios"
+        },
+        {
+          "etiqueta": "TipoEndosoPol",
+          "default": "Endoso Simple"
+        },
+        {
+          "etiqueta": "ResponsableAtencion",
+          "default": "SAC"
+        },
+        {
+          "etiqueta": "EndosoModifPrima",
+          "default": "Si"
+        },
+        {
+          "etiqueta": "InicioVigenciaEndoso",
+          "default": "Default"
+        }
+      ],
+      "eventAppliedEntities": [
+        {
+          "description": "SolicitarEndoso",
+          "orderEvent": 1
+        },
+        {
+          "description": "AprobarEndoso",
+          "orderEvent": 2
+        }
+      ]
+    }
+  ]
+}
